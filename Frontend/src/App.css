@@ -112,7 +112,7 @@ button {
 
 .background2 {
   background-color: #000000;
-  background-image:  radial-gradient(#3a3b49 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#3a3b49 0.9500000000000001px, #000000 0.9500000000000001px);
+  background-image:  radial-gradient(#4c4d5d 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#4c4d5d 0.9500000000000001px, #000000 0.9500000000000001px);
   background-size: 40px 40px;
   background-position: 0 0,19px 19px;
 }
