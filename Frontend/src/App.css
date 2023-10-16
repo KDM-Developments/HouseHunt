@@ -1,38 +1,118 @@
+
 .App {
   text-align: center;
-}
+  margin: 0;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: absolute;
+  background-color: #1A1A1A;
+  min-height: 100%;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Poppins;
+
+}
+
+.logo-small {
+  position: relative;
+  bottom: -25px;
+  width: 120px;
+  opacity: 0.3;
+}
+
+.stars1 {
+  position: relative;
+  left: -145px;
+  bottom: -80px;
+  z-index: 200;
+}
+
+.stars2 {
+  position: absolute;
+  right: -42px;
+  height: 120%;
+  top: 0;
+}
+
+.background {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.home {
+  z-index: 100;
+  margin-bottom: 60px;
+}
+
+.intro-text {
+  width: 300px;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  line-height: 33px;
+
+}
+
+
+.intro-description{
+  width: 320px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+button {
+  font-family: Poppins;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sign-in{
+  font-weight: 500;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #573CFA;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-in:active {
+  background-color: #6C5EFA;
+}
+
+.log-in:active {
+  background-color: #D2D3FB;
+}
+ 
+
+.log-in {
+  font-weight: 500;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #A3A4FF;
+  margin-bottom: 140px;
+}
+
+.background2 {
+  background-color: #000000;
+  background-image:  radial-gradient(#3a3b49 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#3a3b49 0.9500000000000001px, #000000 0.9500000000000001px);
+  background-size: 40px 40px;
+  background-position: 0 0,19px 19px;
 }
