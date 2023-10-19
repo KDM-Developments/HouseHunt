@@ -2,7 +2,6 @@
 .App {
   text-align: center;
   margin: 0;
-
 }
 
 .App-header {
@@ -16,7 +15,6 @@
   justify-content: center;
   color: white;
   font-family: Poppins;
-
 }
 
 .logo-small {
@@ -97,7 +95,6 @@ button {
   border-radius: 15px;
   border: none;
   background-color: #A3A4FF;
-  margin-bottom: 120px;
 }
 
 .background2 {
