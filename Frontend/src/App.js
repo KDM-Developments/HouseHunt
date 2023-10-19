@@ -2,7 +2,9 @@ import mainhome from "./content/homepage/mainhome.svg";
 import stars1 from "./content/homepage/stars-home.svg";
 import stars2 from "./content/homepage/stars-topic.svg";
 import logo from "./content/homepage/househuntlogo-small.svg";
+
 import "./App.css";
+import { Button } from "./components/button/Button";
 
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
         <p className="intro-description">
           Browes and add appartment’s listing for free
         </p>
-        <button className="sign-in">Sign in</button>
-        <button className="log-in">Log in</button>
+        <Button primary = {true}>Sign in</Button>
+        <Button>Log in</Button>
       </div>
     </div>
   );
